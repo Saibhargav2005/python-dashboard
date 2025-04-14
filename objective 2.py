@@ -2,6 +2,7 @@
 data.groupby('Month')['Total Attendance'].mean().plot(
     kind='bar', color='orange', figsize=(10, 6), title="Average Monthly Attendance"
 )
+
 plt.xlabel("Month")
 plt.ylabel("Average Attendance")
 plt.xticks(

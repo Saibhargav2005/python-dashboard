@@ -1,5 +1,5 @@
 # Objective 5: Program Duration vs Attendance
-data['Program_Duration_Days'] = (data['End_Date'] - data['Start_Date']).dt.days
+data['Program_Duration_Days'] =(data['End_Date'] - data['Start_Date']).dt.days
 
 plt.figure(figsize=(10, 6))
 plt.scatter(data['Program_Duration_Days'], data['Total Attendance'], alpha=0.6, color='teal')
